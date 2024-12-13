@@ -10,6 +10,6 @@ with open('input11.txt', 'r') as file:
 
 for i in range(len(team1)):
     number = team1[i]
-    total = team2.count(number)
-    sim +=  number*total
+    totals = team2.count(number)
+    sim +=  number*totals
 print(sim)
